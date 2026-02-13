@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body{
+     background-color: rgb(1, 1, 34);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 100px;
+}
+
+.ANIME{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+
+.header__buttons{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.header__buttons:hover{
+  background-color: black;
+  box-shadow: white 2px 3px 4px 4px;
+
+}
+
+select{
+    border: none;
+    font-size: 20px;
+     background-color: rgb(1, 1, 34);
+     border-radius: 20px;
+}
+select:hover{
+  box-shadow: white 2px 3px 3px 4px;
+}
+
+.header__buttons>p{
+    font-size: 23px;
+}
+
+.header__buttons>button{
+    background-color: #BFAFF2;
+    padding: 10px 40px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: none;
+}
+
+.go{
+    width: 325px;
+    position: relative;
+  
+}
+
+.go_card{
+    background-color: #232028;
+    padding: 50px 20px;
+    border-radius: 20px;
+    text-align: center;
+      margin-top: 300px; 
+}
+
+.go_img{
+    position: absolute;
+    top: 0px;
+    right: 50px;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+footer{
+    display: flex;
+    padding: 20px 100px ;
+    justify-content: space-between;
+
+}
+
+.lets{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.img-class1{
+    width: 200px;
+}
+.img-class2{
+    width: 200px;
+}
+.img-class3{
+    width: 200px;
+}
+.img-class4{
+    width: 200px;
+}
